@@ -6,7 +6,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'ghcr.io/clearlinux:latest'
+          default: 'clearlinux:latest'
 
 # env:
 #   REGISTRY: ghcr.io
