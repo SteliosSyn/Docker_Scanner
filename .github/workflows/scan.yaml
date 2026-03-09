@@ -6,7 +6,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'ghcr.io/mcp/aws-core-mcp-server:latest'
+          default: 'ghcr.io/clearlinux:latest'
 
 # env:
 #   REGISTRY: ghcr.io
